@@ -11,4 +11,4 @@ COPY src/Main.java /app/Main.java
 RUN javac Main.java
 
 # Run the application 
-CMD ["java", "main"]
+CMD ["java", "Main"]
